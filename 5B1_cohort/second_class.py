@@ -96,8 +96,8 @@
 
 # print(final_answer)
 
-list1 = [10, 20,[300, 400,[5000, 6000], 500], 30, 40]
-final_answer = (list1[2][2][0] + list1[2][3])
+# list1 = [10, 20,[300, 400,[5000, 6000], 500], 30, 40]
+# final_answer = (list1[2][2][0] + list1[2][3])
 
-print(final_answer)
+# print(final_answer)
 
