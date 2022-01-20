@@ -1,3 +1,4 @@
+# DAY 1 19/1/2021
 # print("Welcome to python")
 
 #checking types
@@ -44,4 +45,13 @@
 
 # print(price_for_60+shipping)
 
+
+# area = 20
+# cost_of_carpet = 24.99
+# cost_of_cushioning_pad = 2.99
+# cost_of_labour = 18
+
+# total_cost = (cost_of_carpet * 20) + (cost_of_cushioning_pad * 20) + (cost_of_labour * 20) + (35)
+
+# print(total_cost)
 
