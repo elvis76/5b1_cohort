@@ -1,14 +1,14 @@
 
-# DAY 2 20/1/2021
+# # DAY 2 20/1/2021
 # a = "2" + "2"
 
 # print(a)
 
 # my_string = "i am a boy"
 
-# print(my_string[2:6]) =am.a
-# print(my_string[-5:] )=a.boy
-# print(my_string[-9:-5:2]) =.m
+# print(my_string[2:6])# =am.a
+# print(my_string[-5:] ) #=a.boy
+# print(my_string[-9:-5:2])# =.m
 
 # my_string = "This is 1000 naira"
 # st2 = "This 500 is lovely"
@@ -83,7 +83,7 @@
 
 # print(final_answer)
 
-##### LIST ###
+# #### LIST ###
 
 
 # my_list = ["I", 'am', "good"]

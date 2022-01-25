@@ -6,7 +6,7 @@
 
 # new_list = ['this', "brown", 55, "oxen", True, 0.85]
 
-# new_list [4] = "false"
+# new_list [4] = False
 # print(new_list)
 
 # Sample_List = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
@@ -15,7 +15,7 @@
 
 # color_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 
-# color = input("Enter your colour:")
+# color = input("Enter your colour:/n>")
 
 # color_list.append(color)
 # print(color_list)
