@@ -5,11 +5,11 @@
 # # print(color_list.index('Red'))
 
 
-from ctypes import Union
-from re import M
+# from ctypes import Union
+# from re import M
 
 
-print("Welcome to the astroverse!!")
+# print("Welcome to the astroverse!!")
  
 # # choice = input("Enter your favourite color:\n>")
 # # position = int(input ("Enter the position:\n>"))
@@ -81,14 +81,15 @@ print("Welcome to the astroverse!!")
 # print(len(sub))
 
 
-english = input("Enter roll numbers for english students:\n>")
-french = input("Enter roll numbers for french students:\n>")
+# english = input("Enter roll numbers for english students:\n>")
+# french = input("Enter roll numbers for french students:\n>")
 
-english_list = english.split()
-french_list = french.split()
+# english_list = english.split()
+# french_list = french.split()
 
-english_set = set(english_list)
-french_set = set(french_list)
+# english_set = set(english_list)
+# french_set = set(french_list)
 
-total = english_set.union(french_set)
-print(len(total))
+# total = english_set.union(french_set)
+# print(len(total))
+
