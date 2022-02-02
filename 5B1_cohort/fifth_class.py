@@ -130,33 +130,33 @@ import random
         # break
     
 #     # print(choice)
-while True:
-    user_choice = input("Enter a choice (rock, paper, scissors):\n")
+# while True:
+#     user_choice = input("Enter a choice (rock, paper, scissors):\n")
 
-    game_choice = ["rock", "paper", "scissors"]
-    computer_choice = random.choice(game_choice)
-    print(f"\nYou choose {user_choice}, computer choose {computer_choice}:\n")
+#     game_choice = ["rock", "paper", "scissors"]
+#     computer_choice = random.choice(game_choice)
+#     print(f"\nYou choose {user_choice}, computer choose {computer_choice}:\n")
 
-    if user_choice == computer_choice:
-        print(f"Both players selected {user_choice}. It's a draw")
+#     if user_choice == computer_choice:
+#         print(f"Both players selected {user_choice}. It's a draw")
 
-    elif user_choice == "rock":
-        if computer_choice == "scissors":
-            print("Rock smashes scissors You won")
-        else:
-            print("Paper covers rock You lose.")
-    elif user_choice == "paper":
-        if computer_choice == "rock":
-            print("Paper covers rock You won")
-        else:
-            print("Scissors cuts paper You lose.")
-    elif user_choice == "scissors":
-        if computer_choice == "paper":
-            print("Scissors cuts paper You won")
-        else:
-            print("Rock smashes scissors You lose.")
+#     elif user_choice == "rock":
+#         if computer_choice == "scissors":
+#             print("Rock smashes scissors You won")
+#         else:
+#             print("Paper covers rock You lose.")
+#     elif user_choice == "paper":
+#         if computer_choice == "rock":
+#             print("Paper covers rock You won")
+#         else:
+#             print("Scissors cuts paper You lose.")
+#     elif user_choice == "scissors":
+#         if computer_choice == "paper":
+#             print("Scissors cuts paper You won")
+#         else:
+#             print("Rock smashes scissors You lose.")
 
-    play_again = input("Play again? (y/n):\n")
-    if play_again.lower() != "y":
-        print("Game over")
-        break   
+#     play_again = input("Play again? (y/n):\n")
+#     if play_again.lower() != "y":
+#         print("Game over")
+#         break   
