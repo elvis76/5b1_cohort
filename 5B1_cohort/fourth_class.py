@@ -61,66 +61,41 @@
 # print(user_data)        
 
 #BANK APP vl
-from asyncore import loop
-import sys, string
-punc = string.punctuation
-detail = ()
-bal = 0
-data = {
-    "22367890365": {
-        "name":"Elvis",
-        "dob": "09-09-09",
-        "bvn":"123456789",
-        "pin":"1234",
-        "bal":0
-    },
-     "3927758475" : {
-        "name":"Ife",
-        "dob": "09-09-79",
-        "bvn": "123416789",
-        "pin": "1214",
-        "bal" : 12000
-    },
-}
-
-print("Welcome to the Astrobank App")
-print("Enter s to signup or l to login or e to exist")
-choice = input(">").lower()
-
-if choice == 'l':
-    acc_num = input("Enter your account num:\n>")
-    pin = input("Enter your pin:\n>")
-
-    print(acc_num," ",pin)
-
-    user = data.get(acc_num)
-
-    if user and user['pin'] == pin:
-        print(f"Welcome {user['name']}.\nYour account balance is ${user['bal']}")
-    else:
-        print("Invalid Login")
-
-elif choice == 's':
-    name = input("Enter your full name:\n>")
-    dob = input("Enter your dob:\n>")
-    bvn = input("Enter your bvb:\n>")
-    u_pin = input("Create your pin:\n>")
-
-    if len(u_pin)>5:
-        for i in u_pin:
-            if i in punc:
-                detail[name] = u_pin
-                print('successful')
-            else:
-                print('improper password')
-
-
-# elif choice == 'e':
-#     print('Thank you for banking with us')
-#     sys.exit()
-# else:
-#     print('Wrong choice')
+# from asyncore import loop
+# import sys, string
+# punc = string.punctuation
+# detail = ()
+# bal = 0
+# data = {
+#     "22367890365": {
+#         "name":"Elvis",
+#         "dob": "09-09-09",
+#         "bvn":"123456789",
+#         "pin":"1234",
+#         "bal":0
+#     },
+#      "3927758475" : {
+#         "name":"Ife",
+#         "dob": "09-09-79",
+#         "bvn": "123416789",
+#         "pin": "1214",
+#         "bal" : 12000
+#     },
+# }
 
 # print("Welcome to the Astrobank App")
-# print("Enter d to deposit or w to withdraw")
+# print("Enter s to signup or l to login or e to exist")
 # choice = input(">").lower()
+
+# if choice == 'l':
+#     acc_num = input("Enter your account num:\n>")
+#     pin = input("Enter your pin:\n>")
+
+#     print(acc_num," ",pin)
+
+#     user = data.get(acc_num)
+
+#     if user and user['pin'] == pin:
+#         print(f"Welcome {user['name']}.\nYour account balance is ${user['bal']}")
+#     else:
+#         print("Invalid Login")

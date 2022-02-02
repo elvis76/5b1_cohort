@@ -7,12 +7,13 @@ balance = {}
 balance = 0
 while True:
     menu_choice = int(input("Type in a number (1-6): "))
-    if menu_choice == '1':
+    if menu_choice == 1:
         print("sign up")
         name = input("Enter your full name:\n>")
         dob = input("Enter your dob:\n>")
         bvn = input("Enter your bvb:\n>")
         u_pin = input("Create your pin:\n>")
+        print("sign in successful")
 
 # elif choice == 'e':
 #     print('Thank you for banking with us')
