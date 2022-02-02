@@ -4,7 +4,7 @@
 # punc = string.punctuation
 # detail = ()
 # bal = 0
-import random
+# import random
 
 
 # data = {
