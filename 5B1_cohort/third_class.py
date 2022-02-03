@@ -48,8 +48,8 @@
 # my_tuple = (1,)
 # print(type(my_tuple))
 
-# my_tuple = 1,2,3,4,5,6
-# print(my_tuple)
+my_tuple = 1,2,3,4,5,6
+print(my_tuple)
 
 # a = {1,2,4,6}
 # b = {2,4,1,5}
