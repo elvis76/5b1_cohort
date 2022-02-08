@@ -1,11 +1,47 @@
-# # BANK APP vl
-# from asyncore import loop
-# import sys, string
-# punc = string.punctuation
-# detail = ()
-# bal = 0
 # import random
+# import time   
+# from datetime import datetime
+# # num = range(10,50)
+# # my_filter = filter(lambda x:x % 2!=0, num)
+# # print(list(my_filter))
 
+# # text = "Www.HackerRank.com"
+# # print(text.swapcase())
+
+# # a ="".join([i.upper() if i.islower() else i.lower() for i in text])
+# # print(a)
+
+# # print("Hello there!")
+# # time.sleep(2.5)
+# # print("Done!")
+# # random.seed(1)
+# # my_num = list(range(1,11))
+
+# # random.shuffle(my_num) #shuffles the list
+# # print(my_num)
+# # data = random.sample(my_num, 3)#get a sample of k items from our overall population
+# # print(data)
+
+# # today = (datetime.today().month)
+# # today = (datetime.today().hour)
+# # today = (datetime.today().day)
+# # today = (datetime.today().weekday)
+# # today = (datetime.today().isoweekday)
+# # today = (datetime.today().year)
+# # today = (datetime.today().minute)
+# # print(type(today))
+
+# today = (datetime.today())
+
+# print(datetime.strftime(today, "%A, %dth of %B, %Y"))
+# print(datetime.strftime(today, "%A-%d-%b-%Y"))
+# print(datetime.strftime(today, "%a, %b %dth %Y"))
+# print(datetime.strftime(today, "Today is the %dth day of %b. %Y"))
+# print(datetime.strptime("21-jan-22 8:10:40", "%d-%b-%y %H:%M:%S"))
+
+# # write a  function that take in an integer and return true or fasle if integer is a prime number
+
+# import random
 
 # data = {}
 # trans_data = {}
@@ -142,75 +178,3 @@
 
 # print(data)
 # print(trans_data) 
-
-
-# print(random.shuffle(num))
-# print(random.sample(num,4))
-# print(random.choice(num))
-# print(num)
-
-# num = [1,2,3,4,5,6,7,8,9,0]
-# random.shuffle(num)
-# # com_choice = random.choice(num)
-# # print(com_choice)
-
-# trial = 3
-# score = 0
-
-
-# # for i in range(100000000000000):
-# #     if trial == 0:
-# #         print("Game over")
-# #         print(f"your score is {score}")
-# #         break
-# while trial != 0:
-
-#     choice = random.choice(num)
-#     print(choice)
-#     user = int(input("pick a number:\n"))
-
-#     if choice == user:
-#         trial +=1
-#         score +=3
-#         print('you won')
-#         print("you have been given a extra trial")
-#         print("yayyy 😎😎")
-#     else:
-#         trial -=1
-#         print('try again')
-#         print(f"you have {trial} trials left")
-#         print("Game over")
-#         print(f"your score is {score}")
-        # break
-    
-#     # print(choice)
-# while True:
-#     user_choice = input("Enter a choice (rock, paper, scissors):\n")
-
-#     game_choice = ["rock", "paper", "scissors"]
-#     computer_choice = random.choice(game_choice)
-#     print(f"\nYou choose {user_choice}, computer choose {computer_choice}:\n")
-
-#     if user_choice == computer_choice:
-#         print(f"Both players selected {user_choice}. It's a draw")
-
-#     elif user_choice == "rock":
-#         if computer_choice == "scissors":
-#             print("Rock smashes scissors You won")
-#         else:
-#             print("Paper covers rock You lose.")
-#     elif user_choice == "paper":
-#         if computer_choice == "rock":
-#             print("Paper covers rock You won")
-#         else:
-#             print("Scissors cuts paper You lose.")
-#     elif user_choice == "scissors":
-#         if computer_choice == "paper":
-#             print("Scissors cuts paper You won")
-#         else:
-#             print("Rock smashes scissors You lose.")
-
-#     play_again = input("Play again? (y/n):\n")
-#     if play_again.lower() != "y":
-#         print("Game over")
-#         break   
