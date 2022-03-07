@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif; 
+}
+
+header{
+    height: 100vh;
+    background-image: url("./image/slanted-gradient.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2%;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav #logo{
+    font-weight: 100;
+}
+
+nav #logo span{
+    font-weight: 400;
+}
+
+nav ul{
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+}
+
+nav button{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+nav #lang{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+nav #request{
+    background-color:#537a6d88;
+    color: white;
+}
+
+/* Hero section */
+
+#intro{
+    width: 750px;
+    margin: 150px auto 0px;
+    color: white;
+    text-align: center;
+}
+
+#intro h1{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+#intro .seperator{
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+
+#intro #cta{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    margin: 30px auto;
+    cursor: pointer;
+    font-weight: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(17, 22, 19, 0.815);
+}
+
+#intro #player{
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin: 100px auto 0px;
+}
+
+#intro #player img{
+    width: 100;
+
+
+}
+
+#intro #player .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #537a6d88;
+    display: flex;   
+}
+
+#intro #player .overlay #play{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: #537a6d88;
+    box-shadow: 2px 2px 15px black;
+}
+
+/* styles for time section */
+
+#countdown{
+    padding: 20px 10%;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+
+.metrics{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.metrics .metric .val{
+    display: flex;
+    gap: 5px ;
+}
+
+.metrics .metric .val h1 {
+    box-shadow: 0 4px 5px #ddd;
+    padding: 20px;
+    color: rgb(162, 189, 135);
+    font-size: 3em;
+    font-weight: 300;
+    
+}
+
+.metrics .metric p{
+    padding: 20px 0px;
+    font-size: 12px;
+    color: rgb(162, 189, 135);
+}
+
+
+#RequestInfo{
+    color: white;
+    background-color: #537a6d88;
+    padding: 30px 200px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 30px auto;
+}
+
+#RequestInfo p{
+    padding-bottom: 20px;
+}
+
+

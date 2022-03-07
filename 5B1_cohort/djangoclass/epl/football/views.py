@@ -11,3 +11,6 @@ def home_page(request):
 def blog_page(request):
 
     return render(request,"blog.html")
+
+def kibbo_page(request):
+    return render(request, "kibbo.html")
