@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% comment %} {% extends 'base.html' %}
 
 {% block title %}
 Home
@@ -7,22 +7,37 @@ Home
 {% block body %}
 
 
+ {% comment %} <form method="POST">
+  {% csrf_token %}
 
- <form method = "POST" action = '.'>
-     {% csrf_token %}
-     <div class="mb-3">
-       <label for="exampleInputEmail1" class="form-label">Email address</label>
-       <input type="email" name = "email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-     </div>
-     <div class="mb-3">
-       <label for="exampleInputPassword1" class="form-label">Password</label>
-       <input type="password" name = "password" class="form-control" id="exampleInputPassword1">
-     </div>
-     <div class="mb-3 form-check">
-       <input type="checkbox" name = "save data" class="form-check-input" id="exampleCheck1">
-       <label class="form-check-label" for="exampleCheck1">Check me out</label>
-     </div>
-     <input type="submit" class="btn btn-primary" value = "Submit">
-   </form>
-{% endblock body %}
+  <div class="mb-3">
+    <label for="name_" class="form-label">Name:</label>
+    <input type="text" name="name" class="form-control" id="name_">
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Email Address:</label>
+    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  
+  <div class="mb-3">
+    <label for="message_" class="form-label">message:</label>
+    <textarea name="message" class="form-control" id="message_"></textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="subject_" class="form-label">Subject:</label>
+    <input type="text" name="subject" class="form-control" id="subject_">
+  </div>
+
+
+  
+  <div class="mb-3">
+    <label for="score_" class="form-label">score:</label>
+    <input type="int" name="score" class="form-control" id="score_">
+  </div>
+
+
+  <input type="submit" class="btn btn-primary" value="Submit">
+</form> {% endcomment %}
